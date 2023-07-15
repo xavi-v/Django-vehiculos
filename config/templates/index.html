@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <center><h1>Catalogo de Productos</h1></center>
+<body>
+<div class="bg-dark p-2 text-white bg-opacity-25"> 
+  <video width="420" height="340" autoplay muted style="padding:2px;border:6px solid black;>
+    <source src="https://csslayout.io/assets/video-background-demo.mp4" type="video/mp4">
+    <source src="https://csslayout.io/assets/video-background-demo.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+  <div class="row">
+        <div class="col-sm-6">
+    <div class="col-sm-6 right">
+     <p></p>
+      <br>
+    </div>
+      </div>
+     <br>
+      <div class="row">
+      <br>
+      <br>
+        <br>
+        <img src="https://cdn-images.motor.es/image/m/1280w.webp/fotos-noticias/2023/02/bugatti-mistral-202393020-1676402792_1.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" />               
+      </div>  
+      <div class="col-sm-12"></div>
+    </div>  
+</div>
+
+  <div class="bg-dark p-2 text-white bg-opacity-50"> </div>
+  <div class="bg-dark p-2 text-white bg-opacity-75"> Venta de vehiculos X</div>
+  <div class="bg-dark p-2 text-white bg-opacity-50"> </div>
+  <div class="bg-dark p-2 text-white bg-opacity-50"> Mejores marcas y mejores precios</div>
+  <div class="bg-dark p-2 text-white bg-opacity-25"> </div>
+  <div class="bg-dark p-2 text-white bg-opacity-25"> Todo en un solo lugar</div>
+  <div class="bg-dark p-2 text-white bg-opacity-50"></div>
+  <div class="bg-dark p-2 text-white bg-opacity-50"> </div>
+  <div class="bg-dark p-2 text-white bg-opacity-25"> </div>
+  <div class="row">
+    <div class = "col-6 col-sm-4 col-md-3 bg-secondary">
+      <div class="card mt-3 bg-secondary text-white " style="width:200px">
+    
+          <img src="{% static 'chevrolet.png' %}" class="card-img-top bg-secondary text-white" alt="logo chevrolet">
+      <div class="card-body ">
+       <h5 class="card-title">Chevrolete</h5>        
+       
+        <p class="card-text placeholder-glow">
+         <span class="placeholder col-6"></span> 
+          <span class="placeholder col-7"></span>    
+        </p>          
+        <p class="card-text ">General Motors</p>
+      </div>
+    </div>
+  </div>
+  <div class="col bg-secondary">
+    <div class="card mt-3 bg-secondary text-white" style="width:200px">  
+      <img src= "{% static 'fiat.png' %}" class="card-img-top bg-secondary text-white" alt="logo fiat">
+      <div class="card-body">
+        <h5 class="card-title">Fiat</h5>
+        <p class="card-text placeholder-glow">
+         <span class="placeholder col-6"></span> 
+          <span class="placeholder col-7"></span>    
+        </p>   
+        <p class="card-text">Fabbrica Italiana Automobili Torino</p>
+      </div>
+    </div>
+  </div>
+  <div class="col bg-secondary">
+    <div class="card mt-3 bg-secondary text-white" style="width:200px">
+      <img src="{% static 'ford.png' %} " class="card-img-top bg-secondary text-white" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ford</h5>
+        <p class="card-text placeholder-glow">
+         <span class="placeholder col-6"></span> 
+          <span class="placeholder col-7"></span>    
+        </p>   
+        <p class="card-text">Ford Motor Company</p>
+      </div>
+    </div>
+  </div>
+  <div class="col bg-secondary">
+    <div class="card mt-3 bg-secondary text-white" style="width:200px">
+      <img src="{% static 'toyota.png' %} " class="card-img-top bg-secondary text-white" alt="toyota">
+      <div class="card-body">
+        
+        <h5 class="card-title">Toyota</h5>
+        <p class="card-text placeholder-glow">
+         <span class="placeholder col-6"></span> 
+          <span class="placeholder col-7"></span>    
+        </p>   
+        <p class="card-text">Toyota Jidōsha KK</p>
+      </div>
+     </div>
+    </div>
+   </div>
+</div>  
+</body>
+{% endblock %}
+
+
+

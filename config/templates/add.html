@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+       <title>Crear nuevo vehiculo</title>
+
+    <h1>Crear nuevo vehiculo</h1>
+    <form method='POST'>
+      {% csrf_token %}
+      
+      {{form.as_p}}
+      <button class="btn btn-primary" type="submit">Enviar</button>
+    </form>
+{% endblock %}  
